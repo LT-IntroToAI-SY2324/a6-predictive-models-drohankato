@@ -20,3 +20,8 @@ y = data["Price"].values
 #actual prices
 print("***************")
 print("Testing Results")
+
+
+y_cars = [[89,10], [150,20]]
+my_predictions = model.predict(my_cars)
+print(my_predictions)
